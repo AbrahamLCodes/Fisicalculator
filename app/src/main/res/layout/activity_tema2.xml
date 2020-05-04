@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".tema2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="3.2. Impedancia y reactancia"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La impedancia (Z) es una medida de oposición que presenta un circuito a una corriente cuando se aplica una tensión. La impedancia extiende el concepto de resistencia a los circuitos de corriente alterna (CA), y posee tanto magnitud como fase, a diferencia de la resistencia, que solo tiene magnitud. Cuando un circuito es alimentado con corriente continua (CC), su impedancia es igual a la resistencia, lo que puede ser interpretado como la impedancia con ángulo de fase cero. Por definición, la impedancia es la relación (cociente) entre el fasor tensión y el fasor intensidad de corriente: "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z=V/I"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El concepto de impedancia tiene especial importancia si la corriente varía en el tiempo, en cuyo caso las magnitudes se describen con números complejos o funciones del análisis armónico. Su módulo (a veces inadecuadamente llamado impedancia) establece la relación entre los valores máximos o los valores eficaces de la tensión y de la corriente. La parte real de la impedancia es la resistencia y su parte imaginaria es la reactancia. El concepto de impedancia permite generalizar la ley de Ohm en el estudio de circuitos en corriente alterna (CA), dando lugar a la llamada ley de Ohm de corriente alterna que indica: "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I=V/Z"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En electrónica y electrotecnia se denomina reactancia a la oposición ofrecida al paso de la corriente alterna por inductores (bobinas) y condensadores, se mide en ohmios y su símbolo es Ω. Junto a la resistencia eléctrica determinan la impedancia total de un componente o circuito, de tal forma que la reactancia (X) es la parte imaginaria de la impedancia (Z) y la resistencia (R) es la parte real, según la igualdad: "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z=R+jX "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuando circula corriente alterna por alguno de los dos elementos que poseen reactancia, la energía es alternativamente almacenada y liberada en forma de campo magnético, en el caso de las bobinas, o de campo eléctrico, en el caso de los condensadores. Esto produce un adelanto o atraso entre la onda de corriente y la onda de tensión. Este desfase hace disminuir la potencia entregada a una carga resistiva conectada tras la reactancia sin consumir energía. "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

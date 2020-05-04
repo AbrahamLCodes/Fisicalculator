@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menú Principal"
+        android:textColor="@android:color/background_light"
+        android:layout_weight="1"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnInformacion"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:text="Información"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/btnFormularios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:text="Formularios"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/btnCalculadora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:text="Calculadora"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/book" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/list" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/calculator" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
