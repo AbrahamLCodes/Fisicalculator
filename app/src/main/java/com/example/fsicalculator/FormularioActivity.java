@@ -30,15 +30,13 @@ public class FormularioActivity extends AppCompatActivity implements ListView.On
         listFormulas.setOnItemClickListener(this);
     }
 
-    public static int getPosicion() {
-        return posicion;
-    }
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Toast.makeText(this,formulas[position], Toast.LENGTH_SHORT).show();
         posicion = position;
-        startActivity(new Intent(this, ActivityFormulas.class));
+        intent = new Intent(this,ActivityFormulas.class);
+        intent.putExtra("posicion",position);
+        startActivity(intent);
 
     }
 }

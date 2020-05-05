@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class activity_info extends AppCompatActivity implements ListView.OnItemClickListener {
-    Intent intentoTema1, intentoTema2,intentoTema3;
+    Intent intento3;
     ListView listInfo;
     String[] temas =
             {"3.1-Fenómenos electrostáticos y electrodinámicos",
@@ -27,24 +27,26 @@ public class activity_info extends AppCompatActivity implements ListView.OnItemC
         setContentView(R.layout.activity_info);
         listInfo = findViewById(R.id.listInfo);
         listInfo.setAdapter(new ArrayAdapter<String>(
-                this,R.layout.row,temas
+                this, R.layout.row, temas
         ));
         listInfo.setOnItemClickListener(this);
-        intentoTema1 = new Intent(this,tema1Activity.class);
-        intentoTema2 = new Intent(this,tema2Activity.class);
-        intentoTema3= new Intent(this,tema3Activity.class);
+
+        intento3 = new Intent(activity_info.this, InfoClickedActivity.class);
 
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(this,temas[position], Toast.LENGTH_SHORT).show();
-        if (position==0){
-          startActivity(intentoTema1);
-        }else if(position==1){
-            startActivity(intentoTema2);
-        }else if(position==2){
-            startActivity(intentoTema3);
+        Toast.makeText(this, temas[position], Toast.LENGTH_SHORT).show();
+        if (position == 0) {
+            intento3.putExtra("subtema",0);
+            startActivity(intento3);
+        } else if (position == 1) {
+            intento3.putExtra("subtema",1);
+            startActivity(intento3);
+        } else if (position == 2) {
+            intento3.putExtra("subtema",2);
+            startActivity(intento3);
         }
     }
 }

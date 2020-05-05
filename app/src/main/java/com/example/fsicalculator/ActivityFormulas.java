@@ -12,17 +12,18 @@ public class ActivityFormulas extends AppCompatActivity {
     private static LinearLayout layoutPrincipal;
     private static ImageView formulaImagen;
     private static TextView tituloTxt;
-
+    private Bundle bundle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulas);
 
+        bundle = getIntent().getExtras();
         layoutPrincipal = findViewById(R.id.layoutPrincipal);
         formulaImagen = findViewById(R.id.formulaView);
         tituloTxt = findViewById(R.id.txtTituloFormula);
 
-        switch (FormularioActivity.getPosicion()){
+        switch (bundle.getInt("posicion")){
             case 0:
                 tituloTxt.setText("Ley de Ohm");
                 formulaImagen.setImageResource(R.drawable.ohmformula);
@@ -33,7 +34,7 @@ public class ActivityFormulas extends AppCompatActivity {
                 break;
             case 2:
                 tituloTxt.setText("Ley de Coulomb");
-                formulaImagen.setImageResource(R.drawable.leycoulomb);
+               formulaImagen.setImageResource(R.drawable.leycoulomb);
                 break;
             case 3:
                 break;
