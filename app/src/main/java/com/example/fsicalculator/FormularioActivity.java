@@ -14,15 +14,14 @@ import java.text.Normalizer;
 
 public class FormularioActivity extends AppCompatActivity implements ListView.OnItemClickListener {
     ListView listFormulas;
-    String[] formulas = {"Ley de Ohm", "Circulo de formulas", "Ley de Coulomb","Energía potencial electroestática","En construcción"};
+    String[] formulas = {"Ley de Ohm", "Circulo de formulas", "Ley de Coulomb","Energía potencial electroestática",
+            "Reactancia capacitiva", "Redactancia inductiva","Impedancia","Magnetismo y almacenamiento de la informacion"};
     Intent intent;
-    private static int posicion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario);
-//      intentoInfo = new Intent(this,activity_info.class);
         listFormulas = findViewById(R.id.listFormulas);
         listFormulas.setAdapter(new ArrayAdapter<String>(
                 this,R.layout.row,formulas
@@ -32,11 +31,8 @@ public class FormularioActivity extends AppCompatActivity implements ListView.On
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(this,formulas[position], Toast.LENGTH_SHORT).show();
-        posicion = position;
         intent = new Intent(this,ActivityFormulas.class);
         intent.putExtra("posicion",position);
         startActivity(intent);
-
     }
 }

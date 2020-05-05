@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Físicalculator</string>
+
+    <string name="LeyDeOhm">Postulada por el físico y matemático alemán Georg Simon Ohm, es una ley básica
+    de los circuitos eléctricos. Establece que la diferencia de potencial que aplicamos entre los extremos de un conductor
+        determinado es proporcional a la intensidad de la corriente I que circula por el citado conductor.
+        Ohm completó la ley introduciendo la noción de resistencia eléctrica R, que es el factor de proporcionalidad
+        que aparece en la relación entre V e I.</string>
+
+    <string name="DiagramaCircular">Este diagrama muestra un formulario más completo de la ley de ohm.
+    Nos muestra cómo sacar el voltaje, la resistencia, la intensidad y la potencia con más formulas.</string>
+
+    <string name="LeyDeCoulomb">La magnitud de cada una de las fuerzas eléctricas con que interactúan dos
+    cargas puntuales en reposo es directamente proporcional al producto de la magnitud de ambas cargas
+    e inversamente proporcional al cuadrado de la distancia que
+    las separa y tiene la dirección de la línea que las une.</string>
+
+    <string name="EnergiaPotencialElectroestatica">La fuerza electroestática dada por la ley de
+    Coulomb es una fuerza conservativa. Por tanto, el trabajo es independiente de la trayectoria y se
+    puede calcular a partir de una función escalar denominada Energía Potencial Electroestática</string>
+
+    <string name="ReactanciaCapacitiva">Oposición ofrecida al paso de la corriente alterna por inductores y condensadores,
+        se mide en ohmios. Junto a la resistencia eléctria determinan la impedancia total de un componente o circuito, de tal
+        forma que la reactancia es la parte imaginaria de la impedancia y la resistencia es la parte real.
+    </string>
+
+    <string name="ReactanciaInductiva">Definida como la dificultad u opsición que una corriente eléctrica
+    tiene para circular por un conductor eléctrico, por ello paga un cierto precio en forma de energía disipada por
+    calor siglas EDC, la que es producida por esta circulación.</string>
+
+
 </resources>
