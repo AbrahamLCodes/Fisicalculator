@@ -57,6 +57,17 @@ public class ActivityFormulas extends AppCompatActivity {
                 infoTextView.setText(R.string.ReactanciaInductiva);
                 formulaImagen.setImageResource(R.drawable.reactanciainductiva);
                 break;
+            case 6:
+                tituloTxt.setText("Impedancia");
+                infoTextView.setText(R.string.Impedancia);
+                formulaImagen.setImageResource(R.drawable.impedanciados);
+                break;
+            case 7:
+                tituloTxt.setText("Magnetismo y almacenamiento de la informacion");
+                infoTextView.setText("A continuación se mostrarán 2 tablas. Una con fórmulas del campo magnético " +
+                        " y otra del significado de sus símbolos.");
+                formulaImagen.setImageResource(R.drawable.dostablas);
+                break;
         }
     }
 }

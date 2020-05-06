@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="#000000"
     android:orientation="vertical"
      >
 
@@ -27,63 +27,78 @@
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
                 android:text="El magnetismo o energía magnética es un fenómeno natural. Hay algunos materiales conocidos que tienen propiedades magnéticas detectables fácilmente como el níquel, hierro, cobalto y sus aleaciones que comúnmente se llaman imanes. Sin embargo, todos los materiales son influidos, de mayor o menor forma, por la presencia de un campo magnético. "
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text="Campos y fuerzas magnéticas. "
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text="El fenómeno del magnetismo es ejercido por un campo magnético, por ejemplo, una corriente eléctrica o un dipolo magnético crea un campo magnético, este al girar imparte una fuerza magnética a otras partículas que están en el campo. Para una aproximación excelente (pero ignorando algunos efectos cuánticos, véase electrodinámica cuántica) las ecuaciones de Maxwell (que simplifican la ley de Biot-Savart en el caso de corriente constante) describen el origen y el comportamiento de los campos que gobiernan esas fuerzas. Por lo tanto, el magnetismo se observa siempre que partículas cargadas eléctricamente están en movimiento. Por ejemplo, del movimiento de electrones en una corriente eléctrica o en casos del movimiento orbital de los electrones alrededor del núcleo atómico. Estas también aparecen de un dipolo magnético intrínseco que aparece de los efectos cuánticos, por ejemplo, del spin de la mecánica cuántica. "
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text="Dipolos magnéticos"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text='Se puede ver una muy común fuente de campo magnético en la naturaleza, un dipolo. Este tiene un "polo sur" y un "polo norte", sus nombres se deben a que antes se usaban los imanes como brújulas, que interactuaban con el campo magnético terrestre para indicar el norte y el sur del globo. Un campo magnético contiene energía y sistemas físicos que se estabilizan con configuraciones de menor energía. Por lo tanto, cuando se encuentra en un campo magnético, un dipolo magnético tiende a alinearse solo con una polaridad diferente a la del campo, lo que cancela al campo lo máximo posible y disminuye la energía recolectada en el campo al mínimo. Por ejemplo, dos barras magnéticas idénticas pueden estar una a lado de otra normalmente alineadas de norte a sur, resultando en un campo magnético más pequeño y resiste cualquier intento de reorientar todos sus puntos en una misma dirección. La energía requerida para reorientarlos en esa configuración es entonces recolectada en el campo magnético resultante, que es el doble de la magnitud del campo de un imán individual (esto es porque un imán usado como brújula interactúa con el campo magnético terrestre para indicar Norte y Sur). '
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text="Dipolos magnéticos atómicos "
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text="La causa física del magnetismo en los cuerpos, distinto a la corriente eléctrica, es por los dipolos atómicos magnéticos. Dipolos magnéticos o momentos magnéticos, en escala atómica, resultan de dos tipos diferentes del movimiento de electrones. El primero es el movimiento orbital del electrón sobre su núcleo atómico; este movimiento puede ser considerado como una corriente de bucles, resultando en el momento dipolar magnético del orbital. La segunda, más fuerte, fuente de momento electrónico magnético, es debido a las propiedades cuánticas llamadas momento de spin del dipolo magnético (aunque la teoría mecánica cuántica actual dice que los electrones no giran físicamente, ni orbitan el núcleo). "
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>

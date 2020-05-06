@@ -5,7 +5,7 @@
     android:id="@+id/layoutPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="#000000"
     android:orientation="vertical"
     tools:context=".ActivityFormulas">
 
@@ -29,12 +29,16 @@
                 android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/infoText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="TextView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 

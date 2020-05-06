@@ -15,7 +15,7 @@ import java.text.Normalizer;
 public class FormularioActivity extends AppCompatActivity implements ListView.OnItemClickListener {
     ListView listFormulas;
     String[] formulas = {"Ley de Ohm", "Circulo de formulas", "Ley de Coulomb","Energía potencial electroestática",
-            "Reactancia capacitiva", "Redactancia inductiva","Impedancia","Magnetismo y almacenamiento de la informacion"};
+            "Reactancia capacitiva", "Reactancia inductiva","Impedancia","Magnetismo y almacenamiento de la informacion"};
     Intent intent;
 
     @Override

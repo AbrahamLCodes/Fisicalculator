@@ -28,5 +28,10 @@
     tiene para circular por un conductor eléctrico, por ello paga un cierto precio en forma de energía disipada por
     calor siglas EDC, la que es producida por esta circulación.</string>
 
+    <string name="Impedancia">La impedancia es la oposición de un circuito al paso de la corriente alterna
+    y se mide en ohmios. Para calcular la impedancia, es necesario que conozcas el valor de todas las
+    resistencias y la impedancia de los inductores y condensadores, que ofrecen cantidades variables de
+    oposición a la corriente dependiendo de cómo cambia la corriente. </string>
+
 
 </resources>
