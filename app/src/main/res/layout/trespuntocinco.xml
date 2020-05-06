@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txtTituloFormula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="3.5 Espectro electromagnético  y  su clasificación. "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Espectro electromagnético"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="El espectro electromagnético (o simplemente espectro) es el rango de todas las radiaciones electromagnéricas posibles. El espectro de un objeto es la distribución característica de la radiación electromagnética de ese objeto."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Tipos de radiación"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Radiofrecuencia"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Las ondas de radio suelen ser utilizadas mediante antenas del tamaño apropiado (según el principio de resonancia), con longitudes de onda en los límites de cientos de metros a aproximadamente un milímetro. Se usan para la transmisión de datos, a través de la modulación. La televisión, los teléfonos móviles, las resonancias magnéticas, o las redes inalámbricas y de radio-aficionados, son algunos usos populares de las ondas de radio."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Microondas "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="La frecuencia super alta (SHF) y la frecuencia extremadamente alta (EHF) de las microondas son las siguientes en la escala de frecuencia. Las microondas son ondas los suficientemente cortas como para emplear guías de ondas metálicas tubulares de diámetro razonable. La energía de microondas se produce con tubos klistrón y tubos magnetrón, y con diodos de estado sólido como los dispositivos Gunn e IMPATT. Las microondas son absorbidas por la moléculas que tienen un momento dipolar en líquidos. En un horno microondas, este efecto se usa para calentar la comida. La radiación de microondas de baja intensidad se utiliza en Wi-Fi."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Radiación visible (luz)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="La luz visible (y la luz cercana al infrarrojo) son absorbidas y emitidas por electrones en las moléculas y átomos que se mueven desde un nivel de energía a otro. La luz que vemos con nuestros ojos es realmente una parte muy pequeña del espectro electromagnético. Un arco iris muestra la parte óptica (visible) del espectro electromagnético; el infrarrojo (si pudiera verse) estaría localizado justo a continuación del lado rojo del arco iris, mientras que el ultravioleta estaría tras el violeta."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Luz ultravioleta"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Al ser muy energética, la radiación ultravioleta puede romper enlaces químicos, haciendo a las moléculas excepcionalmente reactivas o ionizándolas, lo que cambia su comportamiento. Las quemaduras solares, por ejemplo, están causadas por los efectos perjudiciales de la radiación UV en las células de la piel, y pueden causar incluso cáncer de piel si la radiación daña las moléculas de ADN complejas en las células (la radiación UV es un mutágeno). El Sol emite una gran cantidad de radiación UV, lo que podría convertir rápidamente la Tierra en un desierto estéril si no fuera porque, en su mayor parte, es absorbida por la capa de ozono de la atmósfera antes de alcanzar la superficie."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Rayos X"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Después del ultravioleta vienen los rayos X. Los rayos X duros tienen longitudes de onda más cortas que los rayos X suaves. Se usan generalmente para ver a través de algunos objetos, así como para la física de alta energía y la astronomía. Las estrellas de neutrones y los discos de acreción alrededor de los agujeros negros emiten rayos X, lo que nos permite estudiarlos. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Rayos gamma"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Después de los rayos X duros vienen los rayos gamma. Son los fotones más energéticos, y no se conoce el límite más bajo de su longitud de onda. Son útiles a los astrónomos en el estudio de objetos o regiones de alta energía, y son útiles para los físicos gracias a su capacidad penetrante y su producción de radioisótopos. La longitud de onda de los rayos gamma puede medirse con gran exactitud por medio de dispersión Compton."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

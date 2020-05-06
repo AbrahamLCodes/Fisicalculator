@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/txtTituloFormula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="3.4 Relación entre electricidad y magnetismo física"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La electricidad y el magnetismo son dos aspectos diferentes de un mismo fenómeno físico, denominado electromagnetismo, descrito matemáticamente por las ecuaciones de Maxwell. El movimiento de una carga eléctrica produce un campo magnético, la variación de un campo magnético produce un campo eléctrico y el movimiento acelerado de cargas eléctricas genera ondas electromagnéticas (como en las descargas de rayos que pueden escucharse en los receptores de radio AM). La electricidad y el magnetismo están estrechamente relacionados y son temas de gran importancia en la física."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnetismo"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fenómeno físico por el que los materiales ejercen fuerzas de atracción o repulsión sobre otros materiales."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay algunos materiales conocidos que han presentado propiedades magnéticas detectables fácilmente como el níquel, hierro, cobalto y sus aleaciones que comúnmente se llaman imanes."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Todos los materiales son influídos, de mayor o menor forma, por la presencia de un campo magnético."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El magnetismo también tiene otras manifestaciones en física, particularmente como uno de los dos componentes de la radiación electromagnética, como por ejemplo, la luz."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ordinariamente, innumerables electrones de un material están orientados aleatoriamente en diferentes direcciones, pero en un imán casi todos los electrones tienden a orientarse en la misma dirección, crean una fuerza magnética grande o pequeña dependiendo del número de electrones que estén orientados."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electricidad"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fenómeno físico cuyo origen son las cargas eléctricas y cuya energía se manifiesta en fenómenos mecánicos, térmicos, luminosos y químicos, entre otros."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se puede observar de forma natural en fenómenos atmosféricos, por ejemplo los rayos, que son descargas eléctricas producidas por la transferencia de energía entre la ionosfera y la superficie terrestre (proceso complejo del que los rayos solo forman una parte)."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se denomina electricidad a la rama de la física que estudia las leyes que rigen el fenómeno y a la rama de la tecnología que la usa en aplicaciones prácticas."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Originada por las cargas eléctricas, en reposo o en movimiento, y las interacciones entre ellas."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuando varias cargas eléctricas están en reposo relativo se ejercen entre ellas fuerzas electrostáticas. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -18,8 +18,7 @@ public class activity_info extends AppCompatActivity implements ListView.OnItemC
                     "3.2. Impedancia y reactancia",
                     "3.3. Magnetismo y almacenamiento de información",
                     "3.4. Relación entre corriente y magnetismo",
-                    "3.5. Espectro electromagnético  y  su clasificación",
-                    "3.6. Efecto (Ley) Joule vs Ley de Termodinámica"};
+                    "3.5. Espectro electromagnético  y  su clasificación"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,15 +37,7 @@ public class activity_info extends AppCompatActivity implements ListView.OnItemC
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Toast.makeText(this, temas[position], Toast.LENGTH_SHORT).show();
-        if (position == 0) {
-            intento3.putExtra("subtema",0);
-            startActivity(intento3);
-        } else if (position == 1) {
-            intento3.putExtra("subtema",1);
-            startActivity(intento3);
-        } else if (position == 2) {
-            intento3.putExtra("subtema",2);
-            startActivity(intento3);
-        }
+        intento3.putExtra("subtema", position);
+        startActivity(intento3);
     }
 }

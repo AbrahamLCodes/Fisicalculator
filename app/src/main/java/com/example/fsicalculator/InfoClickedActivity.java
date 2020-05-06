@@ -26,6 +26,12 @@ public class InfoClickedActivity extends AppCompatActivity {
             case 2:
                 setContentView(R.layout.trespuntotres);
                 break;
+            case 3:
+                setContentView(R.layout.trespuntocuatro);
+                break;
+            case 4:
+                setContentView(R.layout.trespuntocinco);
+                break;
         }
     }
 }
