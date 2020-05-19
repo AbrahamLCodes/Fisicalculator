@@ -41,7 +41,11 @@ public class FormularioActivity extends AppCompatActivity implements ListView.On
                 case 0:
                     intent = new Intent(this, LeyDeOhmActivity.class);
                     break;
+                case 1:
+                    Toast.makeText(this, "Operaciones no relacionadas con la materia", Toast.LENGTH_SHORT).show();
+                    break;
                 case 2:
+                    intent = new Intent(this,LeyDeCoulombActivity.class);
                     break;
                 case 3:
                     break;
