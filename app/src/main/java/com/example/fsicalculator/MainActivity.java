@@ -1,8 +1,6 @@
 package com.example.fsicalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,8 +9,8 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button infoButton, formulasButton;
-    private Intent intentoInfo, intentoFomulas, IntentoCalculadora;
+    private Button infoButton, formulasButton, calculadoraButton;
+    private Intent intentoInfo, intentoFomulas, intentoCalculadora;
     private ImageView infoImagen, formularioImagen, calculadoraImagen;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,20 +18,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         formulasButton = findViewById(R.id.btnFormularios);
-        intentoFomulas= new Intent(this, FormularioActivity.class);
-        formulasButton.setOnClickListener(this);
+        formularioImagen = findViewById(R.id.imgFormularios);
 
         infoButton = findViewById(R.id.btnInformacion);
-        intentoInfo = new Intent(this,activity_info.class);
-        infoButton.setOnClickListener(this);
-
         infoImagen = findViewById(R.id.imgInformacion);
-        formularioImagen = findViewById(R.id.imgFormularios);
+
+        calculadoraButton = findViewById(R.id.btnCalculadora);
         calculadoraImagen = findViewById(R.id.imgCalculadora);
 
+        infoButton.setOnClickListener(this);
         infoImagen.setOnClickListener(this);
+
         formularioImagen.setOnClickListener(this);
+        formulasButton.setOnClickListener(this);
+
         calculadoraImagen.setOnClickListener(this);
+        calculadoraButton.setOnClickListener(this);
+
+        intentoInfo = new Intent(this,activity_info.class);
+        intentoFomulas= new Intent(this, FormularioActivity.class);
+        intentoCalculadora = new Intent(this, FormularioActivity.class);
+
     }
 
 
@@ -45,10 +50,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btnFormularios:
+                intentoFomulas.putExtra("calculadora",false);
                 startActivity(intentoFomulas);
                 break;
 
             case R.id.btnCalculadora:
+                intentoCalculadora.putExtra("calculadora",true);
+                startActivity(intentoCalculadora);
                 break;
 
             case R.id.imgInformacion:
@@ -56,12 +64,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.imgFormularios:
+                intentoFomulas.putExtra("calculadora",false);
                 startActivity(intentoFomulas);
                 break;
 
             case R.id.imgCalculadora:
+                intentoCalculadora.putExtra("calculadora",true);
+                startActivity(intentoCalculadora);
                 break;
+
         }
     }
-
 }
