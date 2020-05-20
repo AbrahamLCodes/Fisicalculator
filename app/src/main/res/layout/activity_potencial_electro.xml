@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
     android:orientation="vertical"
-    tools:context=".LeyDeCoulombActivity">
+    tools:context=".PotencialElectroActivity"
+    android:background="#2196F3"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,93 +16,78 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
-                android:gravity="center"
-                android:text="Ley De Coulomb"
+                android:text="Energía potencial electroestática"
                 android:textColor="#FFFFFF"
-                android:textSize="36sp"
                 android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="30sp"
+
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
                 android:hint="Introduce K"
-                android:inputType="number"
                 android:textColorHint="#FFFFFF"
                 android:textSize="30sp"
+                android:layout_marginLeft="10dp"
                 android:textStyle="bold"
-                android:id="@+id/kEdit"/>
-
+                android:id="@+id/kaEdit"
+                android:inputType="number"
+                />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:hint="Introduce q1"
-                android:inputType="number"
+                android:hint="Introduce Q"
                 android:textColorHint="#FFFFFF"
                 android:textSize="30sp"
+                android:layout_marginLeft="10dp"
                 android:textStyle="bold"
-                android:id="@+id/q1Edit"/>
-
+                android:id="@+id/quEdit"
+                android:inputType="number"
+                />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:hint="Introduce q2"
-                android:inputType="number"
+                android:hint="Introduce q"
                 android:textColorHint="#FFFFFF"
                 android:textSize="30sp"
+                android:layout_marginLeft="10dp"
                 android:textStyle="bold"
-                android:id="@+id/q2Edit"/>
-
+                android:id="@+id/qiuEdit"
+                android:inputType="number"
+                />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
                 android:hint="Introduce r"
-                android:inputType="number"
                 android:textColorHint="#FFFFFF"
                 android:textSize="30sp"
-                android:textStyle="bold"
-                android:id="@+id/rEdit"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:hint="Introduce U"
-                android:inputType="number"
-                android:textColorHint="#FFFFFF"
-                android:textSize="30sp"
                 android:textStyle="bold"
-                android:id="@+id/uEdit"/>
-
+                android:id="@+id/ereEdit"
+                android:inputType="number"
+                />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#2196F3"
-                android:text="Obtener"
+                android:text="Obtener energia potencial"
+                android:background="#000000"
                 android:textColor="#FFFFFF"
-                android:textSize="36sp"
-                android:textStyle="bold"
-                android:id="@+id/coulombButton"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/potencialButton"
                 />
 
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

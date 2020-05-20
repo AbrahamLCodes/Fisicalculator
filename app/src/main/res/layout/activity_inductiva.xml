@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InductivaActivity"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textColor="#FFFFFF"
+                android:background="#040404"
+                android:textStyle="bold"
+                android:text="Reactancia Inductiva"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/fi"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Introduce f"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColorHint="#FFFFFF"
+                />
+
+            <EditText
+                android:id="@+id/li"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Introduce L"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColorHint="#FFFFFF"
+                />
+
+            <Button
+                android:id="@+id/inductivaButton"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obtener reactancia"
+                android:textSize="30sp"
+                android:textColor="#F8FFFE"
+                android:background="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

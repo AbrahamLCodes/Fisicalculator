@@ -45,7 +45,7 @@ public class ActivityFormulas extends AppCompatActivity {
             case 3:
                 tituloTxt.setText("Energía potencial electroestática");
                 infoTextView.setText(R.string.EnergiaPotencialElectroestatica);
-                formulaImagen.setImageResource(R.drawable.energiape);
+                formulaImagen.setImageResource(R.drawable.ep);
                 break;
             case 4:
                 tituloTxt.setText("Reactancia capacitiva");
