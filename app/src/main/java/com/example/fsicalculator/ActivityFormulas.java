@@ -10,9 +10,9 @@ import android.widget.Toast;
 
 public class ActivityFormulas extends AppCompatActivity {
 
-    private  LinearLayout layoutPrincipal;
-    private  ImageView formulaImagen;
-    private  TextView tituloTxt, infoTextView;
+    private LinearLayout layoutPrincipal;
+    private ImageView formulaImagen;
+    private TextView tituloTxt, infoTextView;
     private Bundle bundle;
 
     @Override
@@ -26,7 +26,7 @@ public class ActivityFormulas extends AppCompatActivity {
         tituloTxt = findViewById(R.id.txtTituloFormula);
         infoTextView = findViewById(R.id.infoText);
 
-        switch (bundle.getInt("posicion")){
+        switch (bundle.getInt("posicion")) {
             case 0:
                 tituloTxt.setText("Ley de Ohm");
                 infoTextView.setText(R.string.LeyDeOhm);
@@ -40,7 +40,7 @@ public class ActivityFormulas extends AppCompatActivity {
             case 2:
                 tituloTxt.setText("Ley de Coulomb");
                 infoTextView.setText(R.string.LeyDeCoulomb);
-               formulaImagen.setImageResource(R.drawable.leycoulomb);
+                formulaImagen.setImageResource(R.drawable.leycoulomb);
                 break;
             case 3:
                 tituloTxt.setText("Energía potencial electroestática");

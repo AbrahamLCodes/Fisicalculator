@@ -11,7 +11,7 @@ import android.widget.EditText;
 public class LeyDeOhmActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button resistenciaButton, intensidadButton, voltajeButton;
-    EditText res1, res2, int1, int2, volt1,volt2;
+    EditText res1, res2, int1, int2, volt1, volt2;
     private Intent intent;
 
     @Override
@@ -55,53 +55,53 @@ public class LeyDeOhmActivity extends AppCompatActivity implements View.OnClickL
         intent = new Intent(this, ResultadoActivity.class);
         switch (v.getId()) {
             case R.id.resistenciaButton:
-                if(!isEditTextsEmpty(res1,res2)){
-                    intent.putExtra("titulo","Resistencia");
+                if (!isEditTextsEmpty(res1, res2)) {
+                    intent.putExtra("titulo", "Resistencia");
                     intent.putExtra("valor", obtenerResistencia(res1, res2));
-                    intent.putExtra("unidad","Ω (Ohms)");
+                    intent.putExtra("unidad", "Ω (Ohms)");
                 }
                 break;
 
             case R.id.corrienteButton:
-                if(!isEditTextsEmpty(int1, int2)){
-                    intent.putExtra("titulo","Intensidad");
-                    intent.putExtra("valor",obtenerIntensidad(int1,int2));
-                    intent.putExtra("unidad","A (Amperes)");
+                if (!isEditTextsEmpty(int1, int2)) {
+                    intent.putExtra("titulo", "Intensidad");
+                    intent.putExtra("valor", obtenerIntensidad(int1, int2));
+                    intent.putExtra("unidad", "A (Amperes)");
                 }
                 break;
 
             case R.id.voltajeButton:
-                if(!isEditTextsEmpty(volt1, volt2)){
-                    intent.putExtra("titulo","Voltaje");
-                    intent.putExtra("valor",obtenerVoltaje(volt1,volt2));
-                    intent.putExtra("unidad","V (Voltios)");
+                if (!isEditTextsEmpty(volt1, volt2)) {
+                    intent.putExtra("titulo", "Voltaje");
+                    intent.putExtra("valor", obtenerVoltaje(volt1, volt2));
+                    intent.putExtra("unidad", "V (Voltios)");
                 }
                 break;
         }
         startActivity(intent);
     }
 
-    private boolean isEditTextsEmpty(EditText e1, EditText e2){
-        if(e1.getText().toString().isEmpty()){
+    private boolean isEditTextsEmpty(EditText e1, EditText e2) {
+        if (e1.getText().toString().isEmpty()) {
             return true;
-        }else if(e2.getText().toString().isEmpty()){
+        } else if (e2.getText().toString().isEmpty()) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
-    private double obtenerResistencia(EditText voltaje, EditText corriente){
+    private double obtenerResistencia(EditText voltaje, EditText corriente) {
         return Double.parseDouble(voltaje.getText().toString()) / Double.parseDouble(
                 (corriente.getText().toString()));
     }
 
-    private double obtenerIntensidad(EditText voltaje, EditText resistencia){
+    private double obtenerIntensidad(EditText voltaje, EditText resistencia) {
         return Double.parseDouble(voltaje.getText().toString()) / Double.parseDouble(
                 resistencia.getText().toString());
     }
 
-    private double obtenerVoltaje(EditText intensidad, EditText corriente){
+    private double obtenerVoltaje(EditText intensidad, EditText corriente) {
         return Double.parseDouble(intensidad.getText().toString()) * Double.parseDouble(
                 corriente.getText().toString());
     }

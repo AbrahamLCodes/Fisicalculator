@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".ImpedanciaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="Impedancia"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Impedancia solo en serie. R y X presentes"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/impedancia11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce R"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/impedancia12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce X"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/impedanciaButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Obtener Impedancia"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Impedancia solo en serie. R, Xl y Xc presentes"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/impedancia21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce R"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/impedancia23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce Xl"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/impedancia24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce Xc"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/impedanciaButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Obtener Impedancia"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Impedancia solo en serie. R, X y J presentes"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/impedancia31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce R"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/impedancia32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce X"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/impedancia33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Introduce j"
+                android:textColorHint="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/impedanciaButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Obtener Impedancia"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

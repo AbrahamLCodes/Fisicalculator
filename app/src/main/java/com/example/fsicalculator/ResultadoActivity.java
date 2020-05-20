@@ -21,8 +21,8 @@ public class ResultadoActivity extends AppCompatActivity {
         unidad = findViewById(R.id.unidadText);
 
         titulo.setText(bundle.getString("titulo"));
-        resultado.setText("Resultado: "+bundle.getDouble("valor"));
-        unidad.setText("Unidad: "+bundle.getString("unidad"));
+        resultado.setText("Resultado: " + bundle.getDouble("valor"));
+        unidad.setText("Unidad: " + bundle.getString("unidad"));
 
     }
 }
